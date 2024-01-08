@@ -1,39 +1,133 @@
-header{
+header {
     background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
     background-position: center;
     background-repeat: no-repeat;
     padding: 50px 140px;
-    
+
 }
-.banner-gretting{   
-    color: #FFF;
+
+.text-primary{
+color: #F00;
+}
+.button{
+    background-color: #F00;
 text-align: center;
-font-size: 32px;
-font-weight: 400;
-line-height: normal;
+font-size: 20px;
 }
-.banner-party{
+
+.banner-gretting {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-party {
     color: #FFF;
     text-align: center;
     font-size: 72px;
     line-height: 95px
 }
-.offer{
+
+.offer {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.offer1{
+
+.offer1 {
     color: #F00;
 
-text-align: center;
-font-family: Inter;
-font-size: 24px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.categories {
+    color: #070211;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* happy new year pic */
+.banner .image {
+    width: 1;
+    height: 1;
+}
+/* midnight party */
+.party {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.party1 {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.join {
+    color: #FFF;
+
+    text-align: bottom-left;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.n8party {
+    background-image: url(../B9A1-New-Year-New-Mission/resources/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    color: linear (90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    
+}
+.group70{
+    display: flex;
+width: 319.83px;
+height: 464.662px;
+padding: 0.008px 0px 0px 0px;
+flex-direction: column;
+}
+.time{
+    font-family: Inter;
+font-size: 32px;
 font-style: normal;
-font-weight: 500;
-line-height: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+
+.address{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.10)0%, rgba(255, 0, 0, 0.00) 100%;
+}
+div .detail{
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px
 }
