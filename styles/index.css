@@ -1,0 +1,20 @@
+header{
+    background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 200px 200px;
+    
+}
+.banner-gretting{   
+     color: #FFF;
+    text-align: center;
+    font-size: 32px;
+   
+
+}
+.banner-party{
+
+color: #FFF;
+text-align: center;
+font-size: 72px;
+}
