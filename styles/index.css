@@ -1,20 +1,39 @@
 header{
     background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
-    padding: 200px 200px;
+    padding: 50px 140px;
     
 }
 .banner-gretting{   
-     color: #FFF;
-    text-align: center;
-    font-size: 32px;
-   
-
+    color: #FFF;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+line-height: normal;
 }
 .banner-party{
-
-color: #FFF;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    line-height: 95px
+}
+.offer{
+    color: #F00;
 text-align: center;
-font-size: 72px;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.offer1{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
