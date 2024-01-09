@@ -17,7 +17,7 @@ header {
     border-radius: 15px;
     color: #FFF;
   }
-  .banner-detail h5 {
+  .banner-detail .ban1 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -26,29 +26,17 @@ header {
     font-weight: 400;
     line-height: normal;
   }
-.banner-detail h3 {
+.banner-detail .ban2 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 95px; /* 131.944% */
-  }
-
-
-/* header {
+    line-height: 95px; 
  
-  
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 50%);
-background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
-background-repeat: no-repeat;
-background-position: center;
-    
-padding: 50px 140px;
-border-radius: 16px;
-
-} */
+  }
+ 
 
 .text-primary{
 color: #F00;
@@ -109,6 +97,7 @@ font-size: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 100px 100px;
 }
 /* happy new year pic */
 /* midnight party */
@@ -137,9 +126,6 @@ font-size: 20px;
     font-weight: 400;
     line-height: 30px;
 }
-
-
-
 .n8party {
     position: relative;
     display: flex;
@@ -174,7 +160,8 @@ font-size: 20px;
 
 .group70 {
     max-width: 100%;
-    margin-right: 500px; /* Ensure the image does not exceed the container width */
+    margin-right: 600px;
+    display: flex;
 }
 
 
@@ -314,18 +301,14 @@ line-height: 32px;
     }
     
     .celebration {
+        width: 30%;
         display: flex;
         justify-content: center;
-        align-items: center;
         flex-direction: column;
         border: 15px solid red;
-        border-radius: 50%; /* Updated border-radius value */
+        border-radius: 60%;
         padding: 30px 30px;
         margin: 100px;
-        max-width: 364.844px; /* Updated max-width property */
-        width: 100%;
-        height: 364.844px;
-        flex-shrink: 0;
     }
     
     .midnight {
@@ -354,12 +337,206 @@ line-height: 32px;
     
     .details {
         display: flex;
-        justify-content: space-between; /* Adjust spacing between items */
+        justify-content: space-between; 
     }
     
     /* Updated selector */
     .details .celebration .midnight {
         display: flex;
     }
-    
+    .function{color: #070211;
 
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    }
+    .function1{
+        color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .function2{
+        color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+    }
+    .function3{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px
+    }
+    .bannerdiv1 {
+        width: 100%;
+        margin: 100px 0 0 0;
+        display: flex;
+      }
+      .one {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        margin-left: 100px;
+        text-align: center;
+        margin-bottom: -150px;
+        margin-left: 500px;
+        z-index: 1;
+      }
+      .two {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0px;
+        z-index: 1;
+        margin-right: -200px;
+      }
+      .three {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 -100px 0 0px;
+        margin-right: 500px;
+      }
+      .bannerdiv2 {
+        margin-left: 600px;
+        width: 1320px;
+        height: 229px;
+        flex-shrink: 0;
+      }
+      .mainsec7 {
+        margin: 100px auto;
+        width: 1320px;
+      }
+      .sec10 h5 {
+        color: #ff0000;
+        font-size: 24px;
+        margin: 0 0 15px 0;
+      }
+      .sec10 h3 {
+        font-size: 48px;
+        font-family: "Merriweather", serif;
+        margin: 0 0 15px 0;
+      }
+      .sec10 p {
+        width: 70%;
+        color: #918f90;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 15px 0;
+      }
+      .sec11 {
+        width: 100%;
+        margin: 40px 0;
+        display: grid;
+        grid-template-areas:
+          "div div div"
+          "div div div";
+        grid-gap: 20px;
+      }
+      .sec11 div:hover {
+        scale: 1.02;
+        transition: 1000ms;
+      }
+      .mainsec8 {
+        width: 1320px;
+        height: 616px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #fff2f2;
+        border-radius: 15px;
+      }
+      .sec12 h3 {
+        font-size: 48px;
+        font-family: "Merriweather", serif;
+        margin: 0 0 15px 0;
+      }
+      .sec12 p {
+        width: 70%;
+        color: #918f90;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        margin: auto;
+      }
+      .newsletter {
+        margin: 50px auto 100px;
+        width: 46%;
+        display: flex;
+      }
+      .newsletterspace {
+        width: 100%;
+      }
+      .newsletterbutton {
+        margin-top: 20px;
+      }
+      footer {
+        height: 500px;
+        background-color: black;
+        color: white;
+        margin: 100px auto 0;
+        padding-top: 80px;
+      }
+      .footcont {
+        width: 1320px;
+        margin: auto;
+      }
+      .foot h5 {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .foot2 {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 500px;
+      }
+      footer hr {
+        display: block;
+        margin: auto;
+        height: 1px;
+        border: 0;
+        border-top: 0.05px solid #1a1a1a;
+      }
+      .social {
+        text-align: center;
+        padding: 50px;
+      }
+      .social img {
+        margin: 10px;
+      }
+      .copyright {
+        width: 1320px;
+        margin: 0 auto;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-top: 50px;
+      }
+      .unsubscribe {
+        text-align: right;
+      }
