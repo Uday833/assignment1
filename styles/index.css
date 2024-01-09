@@ -2,7 +2,7 @@ header {
     background-color: transparent;
     margin: 20px 0 100px 0;
   }
-  .banner-gretting {
+  .banner-detail {
     margin: auto;
     width: 1320px;
     height: 600px;
@@ -17,7 +17,7 @@ header {
     border-radius: 15px;
     color: #FFF;
   }
- h5 {
+  .banner-detail h5 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -26,7 +26,7 @@ header {
     font-weight: 400;
     line-height: normal;
   }
-h3 {
+.banner-detail h3 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -59,7 +59,7 @@ text-align: center;
 font-size: 20px;
 }
 
-.banner-gretting {
+.banner-detail {
     color: #FFF;
     text-align: center;
     font-size: 32px;
@@ -208,7 +208,7 @@ text-transform: capitalize;
     flex-direction: column;
 }
 
-.adddetail button {
+.add-detail button {
     padding: 15px 25px;
     font-size: 18px;
     font-weight: 500;
@@ -219,10 +219,147 @@ text-transform: capitalize;
     cursor: pointer;
 }
 
+/* new best offer */
 
-div .detail{
-    font-size: 20px;
+/* .detail{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px ;
+
+}
+.coming{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.pera{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px
 }
+.celebration {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 15px solid red;
+    border-radius: 60%;
+    padding: 30px 30px;
+    margin: 100px;
+    width: 364.844px;
+height: 364.844px;
+flex-shrink: 0;
+  }
+.midnight {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+
+  .midnight h3{
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .midnight p{
+    font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+  }
+.details .celebration .midnight{
+    display: flex; */
+    .detail {
+        width: 35%;
+        margin-left: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+    }
+    
+    .coming {
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    
+    .pera {
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    
+    .celebration {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 15px solid red;
+        border-radius: 50%; /* Updated border-radius value */
+        padding: 30px 30px;
+        margin: 100px;
+        max-width: 364.844px; /* Updated max-width property */
+        width: 100%;
+        height: 364.844px;
+        flex-shrink: 0;
+    }
+    
+    .midnight {
+        width: 30%;
+        margin-right: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .midnight h3 {
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .midnight p {
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    
+    .details {
+        display: flex;
+        justify-content: space-between; /* Adjust spacing between items */
+    }
+    
+    /* Updated selector */
+    .details .celebration .midnight {
+        display: flex;
+    }
+    
+
